@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.logo-mario {
+    height: 200px;
+    position: relative;
+
+}
+
+.mario-luigi {
+    height: 500px;
+    padding-top: 100px;
+
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    margin-bottom: 550px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cabecalho img {
+    height: 60px;
+}
+
+.cabecalho a {
+    color: rgb(12, 9, 9);
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    gap: 50px;
+
+
+}
+
+
+.cabecalho a:hover {
+    color: #c51111;
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+
+
+}
+
+
+.caixa-principal {
+    padding-top: 300px;
+    margin: 0px;
+    float: left;
+    text-align: start;
+
+}
+
+
+
+.botao-entre-em-contato {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.zap img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.caixa-de-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+
+}
+
+
+video {
+    min-width: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.caixa-principal {
+    align-items: start;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    top: 30%;
+    left: -300px;
+    transition: left ease-in-out;
+
+
+
+
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid colorrgb(238, 236, 236);
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid colorrgb(238, 236, 236);
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+
+@media (max-width:500px) {
+    p {
+        display: none;
+    }
+}
+
+.caixa-principal{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+
+}
+
+.mario-luigi {
+    width: 80vw; 
+    right: auto;
+
+
+}
+
+.header {
+    margin: 10%;
+}
+.header img{
+    display: none;
+}
